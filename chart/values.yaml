@@ -7,7 +7,7 @@ image:
   repository: docker.io/breadandbutter87/argo-demo-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "55d7a54"
+  tag: "1178af5"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
