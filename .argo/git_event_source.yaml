@@ -27,9 +27,9 @@ spec:
         url: https://5df7-2a01-c22-7b4f-e000-9462-ab82-ed38-f86d.ngrok-free.app
       events:
         - "*"
-      webhookSecret:
-        name: github-webhook-token
-        key: pat-token
-      insecure: false
+      apiToken:
+        name: git-credentials-secret
+        key: .git-credentials
+      insecure: true
       active: true
-      contentType: "json"
+      contentType: json
