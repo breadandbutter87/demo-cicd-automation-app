@@ -3,6 +3,7 @@ kind: Sensor
 metadata:
   name: github
   namespace: argo
+# sensor configuration
 spec:
   template:
     serviceAccountName: operate-workflow-sa
