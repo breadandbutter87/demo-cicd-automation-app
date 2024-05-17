@@ -24,7 +24,7 @@ spec:
                 annotations:
                   workflows.argoproj.io/description: |
                     Build and push a container image using BuildKit.
-                  workflows.argoproj.io/maintainer: '@your_username'
+                  workflows.argoproj.io/maintainer: '@breadandbutter87'
                   workflows.argoproj.io/tags: build, spring-boot
               spec:
                 volumeClaimTemplates:
