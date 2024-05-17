@@ -5,4 +5,4 @@ metadata:
   namespace: argo
 spec:
   jetstream:
-    version: latest # Do NOT use "latest" but a specific version in your real deployment
+    version: '0.1.0' # Do NOT use "latest" but a specific version in your real deployment
