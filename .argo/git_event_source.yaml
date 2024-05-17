@@ -29,7 +29,7 @@ spec:
         - "*"
       webhookSecret:
         name: github-webhook-token
-        key: my-pat
+        key: ngrok-token
       insecure: false
       active: true
       contentType: "json"
