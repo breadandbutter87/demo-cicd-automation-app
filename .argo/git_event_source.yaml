@@ -24,12 +24,12 @@ spec:
         endpoint: /argo-combined-app
         port: "12000"
         method: POST
-        url: http://5df7-2a01-c22-7b4f-e000-9462-ab82-ed38-f86d.ngrok-free.app
+        url: https://5df7-2a01-c22-7b4f-e000-9462-ab82-ed38-f86d.ngrok-free.app
       events:
         - "*"
       webhookSecret:
         name: github-webhook-token
-        key: ngrok-token
+        key: pat-token
       insecure: false
       active: true
       contentType: "json"
